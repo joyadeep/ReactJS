@@ -1,3 +1,8 @@
+# This projcet is created to demonstrate react-loading-skeleton.
+## The contents takes 4 seconds to load (made intentionally to demonstrate loading skeleton).
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
