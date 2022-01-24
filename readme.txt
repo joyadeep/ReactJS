@@ -1,1 +1,1 @@
-This is repository of all the react mini projects.
+#This is parent repository for mini prijects on reactJS
