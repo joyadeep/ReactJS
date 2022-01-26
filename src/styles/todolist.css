@@ -1,0 +1,127 @@
+.container
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(211, 227, 255);
+    min-height:300px ;
+    /* max-height: 600px; */
+    overflow: hidden;
+    width: 80vw;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+
+.addfield{
+    display: flex;
+    margin-bottom: 30px;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.addfield input[type="text"]{
+    border: none;
+    border-radius: 25px 0 0 25px;
+    padding-left: 15px;
+    height: 40px;
+    width: 35%;
+    outline: none;
+    font-size: 20px;
+    /* margin-top: 20px; */
+}
+.addfield input[type="button"]
+{
+    /* margin-top: 20px; */
+    height: 40px;
+    width: 60px;
+    border-radius: 0 25px 25px 0;
+    background-color: rgb(0, 114, 0);
+    color: white;
+    border: transparent;
+    font-size: 30px;
+    display: inline-block;
+    cursor: pointer;
+    /* border-radius: 3px; */
+    /* margin-top: 15px; */
+ }
+
+ .addfield input[type="button"]:hover
+ {
+    background-color: rgb(16, 155, 16);
+ }
+ .addfield input[type="button"]:active
+ {
+     background-color: rgb(88, 175, 88);
+ }
+
+ button{
+     margin-top: 20px;
+ }
+
+ .todoitem
+ {
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: left;
+     padding-left: 15px;
+     font-size: 25px;
+     width: 50%;
+     margin: 0 auto 5px auto;
+     column-gap: 10px;
+     height: 45px;
+     cursor: pointer;
+     background-color: darkblue;
+ }
+ .todoitem:hover{
+     background-color: rgb(31, 31, 187);
+ }
+
+ .todoitem .item
+ {
+     flex: 8;
+     color: white;
+     /* width: 35%; */
+ }
+ 
+ .todoitem .delete
+ {
+     flex: 1;
+     color: white;
+     transform: scale(1.2);
+ }
+ .todoitem .delete:hover
+ {
+    color: rgb(255, 36, 36);
+    /* transform: scale(1.2); */
+ }
+
+ .clearall
+ {
+
+     background-color: white;
+     border-radius: 5px;
+     margin: 0 auto;
+     padding-top: 5px;
+     /* text-align: center; */
+     width: 60px;
+     height: 40px;
+     color: rgb(255, 37, 37);
+     font-size: 30px;
+     /* border: 2px solid white; */
+     cursor: pointer;
+ }
+ .clearall:hover{
+     background-color: rgb(255, 30, 30);
+     color: #fff;
+    }
+    .clearall:active
+    {
+     background-color: rgb(255, 125, 125);
+ }
+
+ .emptylist
+ {
+     font-size: 30px;
+ }
+ 
