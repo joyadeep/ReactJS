@@ -13,3 +13,21 @@ export const getAllPosts=async()=>{
     }
 }
 
+export const getSinglePost=async(id)=>{
+    try {
+        const result= await router.get(`posts/${id}`)
+        return result;
+    } catch (error) {
+        console.log("error",error)
+    }
+}
+
+export const postData=async(data)=>{
+    try {
+        const result= await router.post("posts",data);
+        return result.data;
+    } catch (error) {
+        console.log("error",error)
+    }
+}
+
